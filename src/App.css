@@ -1,8 +1,52 @@
-.App {
-  text-align: center;
-}
+/*CSS reset settings here*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }
+ .wrapper{
+  width: 950px;
+  background-color: silver;
+  margin: 0px auto;
+  padding: 1rem;
+ }
+ .header{
+  min-height: 150px;
+  background-color: green;
+ }
+ .navigation{
+  min-height: 300px;
+  width: 200px;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: top;
+  border-right: 1rem solid silver;
+  margin: 1rem 0;
+ }
+ .main_content{
+  min-height: 400px;
+  width: 714px;
+  background-color: red;
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem 0;
+ }
+ .subcontents{
+  min-height: 200px;
+  width: 210px;
+  background-color: yellow;
+  display: inline-block;
+  border-right: 1rem solid red;
+ }
+ .advertisement{
+  min-height: 120px;
+  width: 625px;
+  background-color: purple;
+  margin: 1rem 0;
+ }
+ 
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +79,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
